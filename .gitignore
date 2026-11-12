@@ -1,0 +1,10 @@
+@"
+node_modules/
+.next/
+.env
+.env.local
+backend/uploads/*
+!backend/uploads/.gitkeep
+"@ | Out-File -FilePath .gitignore -Encoding utf8
+
+mongo-data/
